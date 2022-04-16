@@ -47,9 +47,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
     
     function updateDom(breed, input) {
-        // let breedText = document.createElement("li")
-        // breedText.innerText = breed
-        // breedList.appendChild(breedText)
         if(breed.charAt(0) == input){
             defaultLoad(breed)
         }
